@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
     <Nullable>enable</Nullable>
-    <Version>1.0.0-α1</Version>
+    <Version>1.0.0-Alpha1</Version>
     <AssemblyVersion>1.0.0.1</AssemblyVersion>
     <FileVersion>1.0.0.1</FileVersion>
     <AnalysisLevel>5.0</AnalysisLevel>
@@ -13,5 +13,10 @@
     <DefineConstants>DEBUG</DefineConstants>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BigEndianIO" Version="1.0.0-Pre1" />
+    <PackageReference Include="FixedPoint" Version="2.0.1-PreAlpha" />
+  </ItemGroup>
 
 </Project>

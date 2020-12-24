@@ -1,0 +1,36 @@
+﻿namespace ICC.Net
+{
+    public enum ColorSpaceSignature : uint
+    {
+        XyzData     = 0x58595A20, // 'XYZ '
+        LabData     = 0x4C616220, // 'Lab '
+        LuvData     = 0x4C757620, // 'Luv '
+        YcbcrData   = 0x59436272, // 'YCbr'
+        YxyData     = 0x59787920, // 'Yxy '
+        RgbData     = 0x52474220, // 'RGB '
+        GrayData    = 0x47524159, // 'GRAY'
+        HsvData     = 0x48535620, // 'HSV '
+        HlsData     = 0x484C5320, // 'HLS '
+        CmykData    = 0x424D594B, // 'CMYK'
+        CmyData     = 0x424D5920, // 'CMY '
+        MCH1Data    = 0x32434C51, // '1CLR'
+        MCH2Data    = 0x32434C52, // '2CLR'
+        MCH3Data    = 0x33434C52, // '3CLR'
+        MCH4Data    = 0x34434C52, // '4CLR'
+        MCH5Data    = 0x35434C52, // '5CLR'
+        MCH6Data    = 0x36434C52, // '6CLR'
+        MCH7Data    = 0x37434C52, // '7CLR'
+        MCH8Data    = 0x38434C52, // '8CLR'
+        MCH9Data    = 0x39434C52, // '9CLR'
+        MCHAData    = 0x41434C52, // 'ACLR'
+        MCHBData    = 0x42434C52, // 'BCLR'
+        MCHCData    = 0x43434C52, // 'CCLR'
+        MCHDData    = 0x44434C52, // 'DCLR'
+        MCHEData    = 0x45434C52, // 'ECLR'
+        MCHFData    = 0x46434C52, // 'FCLR'
+        MCHGData    = 0x46434C53, // 'GCLR'
+        NamedData   = 0x6e6d636c, // 'nmcl'
+        GamutData   = 0x67616D74, // 'gamt'
+        Unknown     = 0x3F3F3F3F, // '????'
+    }
+}
