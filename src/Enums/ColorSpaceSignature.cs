@@ -31,6 +31,8 @@
         MCHGData    = 0x46434C53, // 'GCLR'
         NamedData   = 0x6e6d636c, // 'nmcl'
         GamutData   = 0x67616D74, // 'gamt'
+        DevLabData  = 0x644C6162, // 'dLab'
+        DevXYZData  = 0x6458595A, // 'dXYZ'
         Unknown     = 0x3F3F3F3F, // '????'
     }
 }

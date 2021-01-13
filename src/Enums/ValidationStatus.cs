@@ -1,6 +1,6 @@
 ﻿namespace ICC.Net
 {
-    public enum ValidateStatus
+    public enum ValidationStatus
     {
         OK,
         Warning,
